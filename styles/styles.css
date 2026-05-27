@@ -1,5 +1,12 @@
+:root {
+  --heading-background-color: rgb(241, 237, 239);
+  --heading-text-color: #3315da;
+  --heading-font: 'Montserrat', Helvetica, sans-serif;
+  --font-color: rgb(5, 5, 5);
+}
+
 nav {
-  background-color: darkblue;
+  background-color: var(--heading-text-color);
   padding: 10px;
 }
 
@@ -16,7 +23,7 @@ h1 {
 img {
   width: 150px;
   height: auto;
-  border: 1px solid black;
+  border: 1px solid var(--font-color);
   padding: 2px;
   box-shadow: 0 0 30px gray;
 }
@@ -33,7 +40,7 @@ main img {
   width: 175px;
   height: auto;
   border-radius: 10%;
-  border: 1px solid rgb(0 0 0 / 0.2);
+  border: 1px solid var(--font-color);
   box-shadow: 0 0 30px gray;
   padding: 1rem;
 
@@ -42,10 +49,10 @@ main img {
 aside {
   width: 20rem;
   margin: 1rem;
-  border: 1px solid rgb(0 0 0 / 0.2);
+  border: 1px solid var(--font-color);
   padding: 1rem;
   background-color: #eee;
-  color: #333;
+  color: var(--font-color);
   text-align: center;
 }
 
@@ -60,6 +67,6 @@ aside p {
 
 footer {
   margin-top: 20px;
-  border-top: 1px solid rgb(0 0 0);
+  border-top: 1px solid var(--font-color);
   text-align: center;
 }
