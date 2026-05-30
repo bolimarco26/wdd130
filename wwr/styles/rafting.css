@@ -1,6 +1,6 @@
 :root {
   --primary-color: #2bbfec; /* forest green */
-  --secondary-color: #1fb1f5; /* warm sand */
+  --secondary-color: #f0f5f7; /* warm sand */
   --accent1-color: #0b1418; /* dark slate blue */
   --accent2-color: #337deb; /* light golden yellow */
   --heading-font: "Times New Roman", "Georgia", serif;
@@ -60,7 +60,7 @@ nav, p, section, article {
   }
 
 
-  h1 {
+hero h1 {
   position: absolute;
   top: 20px;
   width: 100%;
@@ -68,7 +68,7 @@ nav, p, section, article {
   text-align: center;
   opacity: 0.7;
   background-color: var(--accent1-color);
-  color: #fff; /* white text – make sure there is enough contrast with the background-color */
+  color: var(--secondary-color); /* white text – make sure there is enough contrast with the background-color */
 }
 
 
