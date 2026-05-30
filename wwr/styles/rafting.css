@@ -1,0 +1,111 @@
+:root {
+  --primary-color: #2bbfec; /* forest green */
+  --secondary-color: #1fb1f5; /* warm sand */
+  --accent1-color: #0b1418; /* dark slate blue */
+  --accent2-color: #337deb; /* light golden yellow */
+  --heading-font: "Times New Roman", "Georgia", serif;
+  --body-font: Arial, Helvetica, sans-serif;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: var(--body-font);
+  color: var(--accent1-color);
+}
+
+
+header, main, footer {
+  width: 840px;
+  margin: 0 auto;
+}
+
+
+
+h1, h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+
+nav, p, section, article {
+  margin: 16px;
+  padding: 8px;
+}
+
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+
+.hero {
+  position: relative;
+  margin: 0px;
+}
+
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+   
+  }
+
+
+  h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--accent1-color);
+  color: #fff; /* white text – make sure there is enough contrast with the background-color */
+}
+
+
+article {
+    display: flex;
+    position: absolute;
+    top: 280px;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+
+}
+
+#litlepic {
+    width: 100px;
+    height: auto;
+}
+
+
+
+main h2 {
+    background-color: var( --accent2-color);
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px; 
+    color: rgb(241, 239, 239)
+
+}
+
+footer {
+  border-top: 2px solid black; 
+  padding: 10px;               
+}
+
+
+footer a img {
+    width: 45px;
+    height: auto;
+}
