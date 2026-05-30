@@ -60,7 +60,7 @@ nav, p, section, article {
   }
 
 
-hero h1 {
+.hero h1 {
   position: absolute;
   top: 20px;
   width: 100%;
@@ -72,7 +72,7 @@ hero h1 {
 }
 
 
-article {
+.hero article {
     display: flex;
     position: absolute;
     top: 280px;
@@ -82,7 +82,7 @@ article {
 
 }
 
-#litlepic {
+.hero article img {
     width: 100px;
     height: auto;
 }
