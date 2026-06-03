@@ -5,7 +5,7 @@
   /* warm sand */
   --accent1-color: #0b1418;
   /* dark slate blue */
-  --accent2-color: #337deb;
+  --accent2-color: #0e1218;
   /* light golden yellow */
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
@@ -108,7 +108,7 @@ article {
 }
 
 main h2 {
-  background-color: var(--accent1-color);
+  background-color: var(--accent2-color);
   width: 100%;
   height: 60px;
   text-align: center;
