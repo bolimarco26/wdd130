@@ -168,3 +168,21 @@ footer a img {
   width: 100%;
   height: auto;
 }
+
+
+
+
+
+/* THIS PART BELONGS TO THE CONTACT.HTML FILE */
+
+.here_to_Serve {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.here_to_Serve img {
+  width: 100px;
+  height: auto;
+}
