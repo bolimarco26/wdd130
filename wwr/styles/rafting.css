@@ -186,3 +186,36 @@ footer a img {
   width: 100px;
   height: auto;
 }
+
+
+.title_contact_us_in {
+    flex: box;     
+    text-align: center;
+}
+
+.title_contact_us_in h1{
+    color: var(--accent2-color);
+    font-size: 60px;
+    font-family: var(--body-font);
+    padding: 15px;
+}
+
+.title_contact_us_in p {
+
+    padding: 5px;
+}
+
+
+.center_map_and_form {
+  display: flex;
+
+}
+
+
+.contact_form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  
+}
