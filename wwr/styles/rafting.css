@@ -219,3 +219,10 @@ footer a img {
   border: 1px solid #ccc;
   
 }
+
+
+.google-map {
+    width: 450px;
+    height: 450px;
+    border: 0;
+}

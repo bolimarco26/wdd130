@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
     content="Contact Bolivia Rafting Adventure to book trips, ask questions, or learn more about our rafting experiences.">
-
+    <meta name="author" content="Marco Perez Medina">
 
     <title>Contact Us | White Water Rafting</title>
 
@@ -44,15 +44,21 @@
 
 <div class="center_map_and_form">
         <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d621.1034160803458!2d-68.13121286954556!3d-16.503934854584053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f2138f43e95cd%3A0x691efe7f2ef925d2!2sJL%20Punto%20de%20Enfoque%2FEstudio!5e1!3m2!1ses-419!2sbo!4v1781316010945!5m2!1ses-419!2sbo" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+    <iframe
+        class="google-map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d621.1034160803458!2d-68.13121286954556!3d-16.503934854584053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f2138f43e95cd%3A0x691efe7f2ef925d2!2sJL%20Punto%20de%20Enfoque%2FEstudio!5e1!3m2!1ses-419!2sbo!4v1781316010945!5m2!1ses-419!2sbo"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
 
 
             
 <section class="contact-form">
     <h2>Send Us a Message</h2>
 
-    <form action="#" method="post"  class="contact_form">
+    <form action="#" method="post"  >
 
         <label for="fullname">Full Name:</label>
         <input type="text" id="fullname" name="fullname" required>
@@ -63,17 +69,17 @@
         <h3>Purpose of Message</h3>
 
         <label>
-            <input type="radio" name="purpose" value="general" required>
+            <input type="radio" id="general" name="purpose" value="general" required>
             General Inquiry
         </label>
 
         <label>
-            <input type="radio" name="purpose" value="reservation">
+            <input type="radio" id="reservation" name="purpose" value="reservation">
             Reservation Question
         </label>
 
         <label>
-            <input type="radio" name="purpose" value="suggestion">
+            <input type="radio" id="suggestion" name="purpose" value="suggestion">
             Website Suggestion
         </label>
 
@@ -81,7 +87,7 @@
         <textarea id="message" name="message" rows="6" required></textarea>
 
         <label class="newsletter">
-            <input type="checkbox" name="newsletter">
+            <input type="checkbox" id="newsletter" name="newsletter">
             Please subscribe me to the monthly newsletter
         </label>
 
